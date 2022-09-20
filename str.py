@@ -4,6 +4,6 @@ str3='''人生苦短
 我用Python
 '''
 
-print(str1,type(str1))
+print(str1,type(str1))2
 print(str2,type(str2))
 print(str3,type(str3))
