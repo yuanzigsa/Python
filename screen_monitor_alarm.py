@@ -56,7 +56,7 @@ def is_icon_flashing():
 
 # 发送钉钉告警
 def send_alert():
-    url = "https://oapi.dingtalk.com/robot/send?accs_token=eea77628444837429394d98417d1feb5583e9535fcc7e7fefff16303de3d70b3"
+    url = "你的钉钉机器人的webhook的地址"
     headers = { "Content-Type": "application/json" }
     data = {
         "msgtype": "text",
